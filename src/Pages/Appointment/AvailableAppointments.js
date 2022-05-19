@@ -16,7 +16,7 @@ const AvailableAppointments = ({date}) => {
     return (
         <div className='pt-8'>
              <h4 className='text-xl text-secondary text-center font-serif'>Your selected date {format(date, 'PP')}.</h4>
-             <p className='text-accent text-center font-sans'>Please select a service</p>
+             <p className='text-accent text-center font-sans my-12'>Please select a service</p>
              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                  {
                      services.map(service => <Service
